@@ -1,0 +1,5 @@
+{
+  "/risk-analysis/page": "app/risk-analysis/page.js",
+  "/page": "app/page.js",
+  "/client-management/page": "app/client-management/page.js"
+}
