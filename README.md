@@ -81,9 +81,9 @@ Données : Historiques de clients (ex. : âge, revenu, emploi, remboursement)
 
 🧾 Export des prédictions en PDF
 
-👨‍💻 Réalisé par
-Nom : Hadef Atef
+```
 
+Ben Hadef Atef
 🎓 Étudiant en Data Science & IA
 
 📫 Email : benhadefatef@gmail.com
