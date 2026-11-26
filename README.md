@@ -66,6 +66,7 @@ Interactive docs: `http://localhost:8000/docs` once the API is running.
 cd backend
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+python populate_db.py                                   # first run: builds banking.db from the CSV
 uvicorn main:app --reload --port 8000
 ```
 
@@ -76,7 +77,7 @@ npm install
 npm run dev                                             # http://localhost:3000
 ```
 
-To (re)create the demo database from the CSV: `python populate_db.py` inside `backend/`.
+The SQLite database (`banking.db`) is not versioned: `populate_db.py` generates it locally.
 
 ## Project structure
 
